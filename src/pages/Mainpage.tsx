@@ -28,6 +28,9 @@ const Mainpage = () => {
 				<div>
 					<div className='main-text-block'>
 						<h1 className='main-text'>VOLUNTEERING PLATFORM</h1>
+						<Box sx={{ ml: 15, mt: 4 }}>
+							<Button sx={{ mt: 1, fontSize: 23}} onClick = { handleProjectClick } variant="contained" size="large">CI/CD Check Button</Button>
+						</Box>
 					</div>
 				</div>
 			</div>

@@ -4,7 +4,7 @@ import { PagedRequest, PagedResult } from "shared/models/pagedRequestModel";
 import { MyProjectDto } from "shared/models/projectModel";
 import config from "config";
 
-const apiUrl = config.apiUrl;
+const apiUrl = process.env.REACT_APP_API_URL || 'https://localhost:7091';
 
 export async function getPagedOrganizations(pagedRequest: PagedRequest) {
     let response = await axios.post<PagedResult<OrganizationListDto>>(`${apiUrl}/api/organizations/paginated-search`, pagedRequest );

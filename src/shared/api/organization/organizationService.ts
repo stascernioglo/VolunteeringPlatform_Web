@@ -2,7 +2,6 @@ import axios from "axios";
 import { OrganizationListDto } from "shared/models/organizationModel";
 import { PagedRequest, PagedResult } from "shared/models/pagedRequestModel";
 import { MyProjectDto } from "shared/models/projectModel";
-import config from "config";
 
 const apiUrl = process.env.REACT_APP_API_URL || 'https://localhost:7091';
 

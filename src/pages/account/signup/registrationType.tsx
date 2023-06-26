@@ -28,7 +28,7 @@ export default function RegistrationType() {
                         maxWidth: { xs: 350, md: 250 },
                     }}
                     alt="The house from the offer."
-                    src="https://msdocsstoragefunc.blob.core.windows.net/assets/simple.png"
+                    src="https://utmstorageaccount.blob.core.windows.net/others/simple.png"
                 />
                 <Button sx={{ mt: 3, ml: 3}} onClick = {handleSimpleReg} variant="contained">Simple Registration</Button>
             </Box>
@@ -42,7 +42,7 @@ export default function RegistrationType() {
                         maxWidth: { xs: 350, md: 250 },
                     }}
                     alt="The house from the offer."
-                    src="https://msdocsstoragefunc.blob.core.windows.net/assets/volunteer.png"
+                    src="https://utmstorageaccount.blob.core.windows.net/others/volunteer.png"
                 />
                 <Button sx={{ mt: 3, ml: 1}} onClick = {handleVolunteerReg} variant="contained">Volunteer Registration</Button>
             </Box>
@@ -56,7 +56,7 @@ export default function RegistrationType() {
                         maxWidth: { xs: 350, md: 250 },
                     }}
                     alt="The house from the offer."
-                    src="https://msdocsstoragefunc.blob.core.windows.net/assets/organization.png"
+                    src="https://utmstorageaccount.blob.core.windows.net/others/organization.png"
                 />
                 <Button sx={{ mt: 3}} onClick = {handleOrganizationReg} variant="contained">Organization Registration</Button>
             </Box>
